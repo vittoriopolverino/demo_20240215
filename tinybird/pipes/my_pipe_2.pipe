@@ -1,0 +1,5 @@
+TOKEN "my_pipe_2_endpoint_read_6345" READ
+
+NODE endpoint
+SQL >
+    SELECT * FROM my_datasource where action = 'click_event'
