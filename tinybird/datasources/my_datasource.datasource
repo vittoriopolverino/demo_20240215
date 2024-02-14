@@ -6,4 +6,5 @@ SCHEMA >
     `version` String `json:$.version`
 
 ENGINE MergeTree
-ENGINE_SORTING_KEY action, session_id, timestamp, version
+ENGINE_SORTING_KEY timestamp, action
+ENGINE_PARTITION_KEY action
