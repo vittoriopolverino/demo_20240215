@@ -13,7 +13,7 @@ activate_venv() {
 format() {
   for file in tinybird/pipes/*.pipe tinybird/datasources/*.datasource; do
     tb fmt --diff "$file";
-    tb fmt --yes --line-lenght 100 "$file";
+    tb fmt --yes "$file";
   done
 }
 
