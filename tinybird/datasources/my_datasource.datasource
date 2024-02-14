@@ -1,0 +1,10 @@
+SCHEMA >
+    `action` String `json:$.action`,
+    `payload` String `json:$.payload`,
+    `session_id` String `json:$.session_id`,
+    `timestamp` String `json:$.timestamp`,
+    `version` String `json:$.version`
+
+ENGINE MergeTree
+ENGINE_PARTITION_KEY action
+ENGINE_SORTING_KEY timestamp, action
