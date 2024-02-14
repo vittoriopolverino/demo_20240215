@@ -1,8 +1,6 @@
-
 NODE endpoint
 DESCRIPTION >
     Generated from the command line
+
 SQL >
     SELECT * FROM my_datasource WHERE action == 'page_hit'
-
-    
