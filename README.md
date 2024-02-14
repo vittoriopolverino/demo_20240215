@@ -54,6 +54,8 @@ cd tinybird/pipes
 tb pipe generate my_pipe "SELECT * FROM my_datasource WHERE action == 'page_hit'"
 ```
 
+<br />
+
 Push Data Projects file to the server:
 ```bash
 tb push my_pipe.pipe
