@@ -4,3 +4,7 @@ DESCRIPTION >
 
 SQL >
     SELECT * FROM my_datasource WHERE action == 'page_hit'
+
+NODE my_pipe_1
+SQL >
+    SELECT * FROM endpoint
