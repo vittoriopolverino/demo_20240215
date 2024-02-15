@@ -1,0 +1,5 @@
+TOKEN "my_pipe_4_endpoint_read_5947" READ
+
+NODE my_pipe_4_0
+SQL >
+    SELECT * FROM my_datasource where action = 'scroll'
